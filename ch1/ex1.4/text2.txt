@@ -1,0 +1,4 @@
+Text 2 file
+Text 2 duplicate
+Text 2 duplicate
+Both Text 1 and 2
