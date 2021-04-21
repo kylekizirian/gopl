@@ -12,7 +12,7 @@ import (
 // Represents a set with methods `add` and `has`
 type filesSet map[string]bool
 
-// Returns whether string `file` is in filesSet
+// Returns name of each files separated by a space
 func (f filesSet) String() string {
 	files := []string{}
 
