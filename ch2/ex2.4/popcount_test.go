@@ -47,6 +47,6 @@ func BenchmarkPopCountShift1(b *testing.B)   { benchmarkPopCount(1, b, PopCountS
 func BenchmarkPopCountShiftMax(b *testing.B) { benchmarkPopCount(^uint64(0), b, PopCountShift) }
 
 func BenchmarkPopCountClearRight1(b *testing.B) { benchmarkPopCount(1, b, PopCountClearRight) }
-func BenchmarkPopCounClearRighttMax(b *testing.B) {
+func BenchmarkPopCounClearRightMax(b *testing.B) {
 	benchmarkPopCount(^uint64(0), b, PopCountClearRight)
 }
